@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: sort1 has the slowest run times for the random and reversed .txt files, but has the fastest run time for the sorted numbers.
+
+sort2 uses: merge sort
+
+How do you know?: sort2 has the fastest run times for the random and reversed .txt files, while also being slightly slower than sort 1 in the sorted .txt files.
+
+sort3 uses: selection sort
+
+How do you know?: sort3 has the median run times for random and reversed .txt files, but the slowest run time for the sorted .txt files because it still has to go through the array of numbers numerous times.
