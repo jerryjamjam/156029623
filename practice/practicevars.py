@@ -12,6 +12,13 @@ floordivide = num1 // num2
 modulus = num1 % num2
 exponential = num1 ** num2
 
-print(f"Adding both gives {add}")
-
+message = f"""
+Adding both gives {add}
+Subtracting one from the other gives {subtract}
+Multiplying both gives {multiply}
+Dividing one from another gives {divide}
+Using // gives {floordivide}
+Powering one number by the other gives {exponential}
+"""
+print(message)
 
