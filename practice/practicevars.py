@@ -1,8 +1,8 @@
 
 
 
-num1 = int(input("What number are you thinking of? "))
-num2 = int(input("What number are you thinking of? "))
+num1 = int(input("What's the first number? "))
+num2 = int(input("What's the second number? "))
 
 add = num1 + num2
 subtract = num1 - num2
