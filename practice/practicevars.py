@@ -5,7 +5,7 @@ name = "Jared"
 age = 32
 
 answer = input("Do you like Python? ").lower()
-if answer == "yes" or "yeah" or "jeff":
+if answer in ["yes", "yeah", "ye", "duh"]:
     answer = "love"
 else:
     answer = "hate"
