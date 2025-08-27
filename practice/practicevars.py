@@ -7,9 +7,16 @@ num2 = int(input("What's the second number? "))
 add = num1 + num2
 subtract = num1 - num2
 multiply = num1 * num2
-divide = num1 / num2
-floordivide = num1 // num2
-modulus = num1 % num2
+if num2 == 0:
+    print("cannot divide by 0")
+else:
+    divide = num1 / num2
+    floordivide = num1 // num2
+if num2 == 0:
+    print("can't use modulus with 0")
+else:
+    modulus = num1 % num2
+
 exponential = num1 ** num2
 
 message = f"""
