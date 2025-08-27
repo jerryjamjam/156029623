@@ -4,7 +4,7 @@ name = "Jared"
 
 age = 32
 
-answer = input("Do you like Python? ")
+answer = input("Do you like Python? ").lower()
 if answer == "yes":
     answer = "love"
 else:
