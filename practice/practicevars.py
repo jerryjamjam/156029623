@@ -9,7 +9,7 @@ if answer in ["yes", "yeah", "ye", "duh"]:
 elif answer in ["nah", "no", "fuck off"]:
     answer = "hate"
 else:
-    answer = 
+    answer = "i don't know"
 
 
 print(f"Hello, {name}! You are {age} and {answer} Python!")
