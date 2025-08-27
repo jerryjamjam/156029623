@@ -18,6 +18,7 @@ Subtracting one from the other gives: {subtract}
 Multiplying both gives: {multiply}
 Dividing one from another gives: {divide}
 Using // gives: {floordivide}
+Getting the modulus from two numbers gives: {modulus}
 Powering one number by the other gives: {exponential}
 """
 print(message)
