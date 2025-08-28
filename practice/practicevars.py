@@ -13,10 +13,10 @@ if age <= 13:
 elif age in [13, 14, 15, 16, 17]:
     if studentid == "Y":
         print("You get a student discount!")
-        print(tickets * (teenprice * discount))
+        print(f"Total cost = {tickets * (teenprice * discount)}")
     else:
         print("Regular teen ticket price applies")
-
+        print()
 elif age >= 18:
     if studentid == "Y":
         print("You get a student discount on the adult ticket!")
