@@ -8,24 +8,22 @@ adultprice = 12
 teenprice = 10
 discount = .2
 baseprice =  adultprice if age >=18 else teenprice
-
-adult_discount = (tickets * adultprice) - (discount * (adultprice * tickets))
-teen_discount = (tickets * teenprice) - (discount * (teenprice * tickets))
 total = baseprice * tickets
+subtotal = total * discount
 
 if age <= 12:
     print("Sorry, you're too young for this movie")
 elif age in [13, 14, 15, 16, 17]:
     if studentid == "Y":
         print("You get a student discount!")
-        print(f"Total cost = ${total:.2f}")
+        print(f"Total cost = ${subtotal:.2f}")
     else:
         print("Regular teen ticket price applies")
         print(f"Total cost = ${total:.2f}")
 elif age >= 18:
     if studentid == "Y":
         print("You get a student discount on the adult ticket!")
-        print(f"Total cost = ${total:.2f}")
+        print(f"Total cost = ${subtotal:.2f}")
     else:
         print("Full adult ticket price applies")
         print(f"Total cost = ${total:.2f}")
