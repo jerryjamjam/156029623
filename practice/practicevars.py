@@ -8,10 +8,10 @@ adultprice = 12
 teenprice = 10
 discount = .2
 baseprice =  adultprice if age >=18 else teenprice
-total = baseprice * tickets
-totaldiscount = "hi"
+
 adult_discount = (tickets * adultprice) - (discount * (adultprice * tickets))
 teen_discount = (tickets * teenprice) - (discount * (teenprice * tickets))
+total = baseprice * tickets
 
 if age <= 12:
     print("Sorry, you're too young for this movie")
