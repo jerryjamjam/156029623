@@ -1,5 +1,6 @@
 
 
+
 age = int(input("What is your age? "))
 studentid = input("Do you have a student ID? Y/N ").upper()
 tickets = int(input("how many tickets do you want? "))
@@ -9,7 +10,7 @@ teenprice = 10
 discount = .2
 baseprice = adultprice if age >=18 else teenprice
 total = baseprice * tickets
-subtotal = total * discount
+subtotal = total - (total * discount)
 
 if age <= 12:
     print("Sorry, you're too young for this movie")
@@ -27,6 +28,5 @@ elif age >= 18:
     else:
         print("Full adult ticket price applies")
         print(f"Total cost = ${total:.2f}")
-
 
 
