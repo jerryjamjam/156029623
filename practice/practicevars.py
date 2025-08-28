@@ -12,7 +12,7 @@ elif age in [13, 14, 15, 16, 17]:
         print("You get a student discount")
     else:
         print("Regular teen ticket price applies")
-if age >= 18:
+elif age >= 18:
     if studentid == "Y":
         print("You get a student discount on the adult ticket!")
 else:
