@@ -7,6 +7,8 @@ tickets = int(input("how many tickets do you want? "))
 adultprice = 12
 teenprice = 10
 discount = .2
+def apply_discount(tickets, adultprice, teenprice, discount)
+    if age <= 13
 adult_discount = (tickets * adultprice) - (discount * (adultprice * tickets))
 teen_discount = (tickets * teenprice) - (discount * (teenprice * tickets))
 
