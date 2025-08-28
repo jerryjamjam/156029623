@@ -1,6 +1,6 @@
 
 
-age = input("What is your age? ")
+age = int(input("What is your age? "))
 studentid = input("Do you have a student ID? Y/N ").upper()
 
 if age <= 13:
