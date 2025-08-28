@@ -7,7 +7,7 @@ tickets = int(input("how many tickets do you want? "))
 adultprice = 12
 teenprice = 10
 discount = .2
-baseprice =  adultprice if age >=18 else teenprice
+baseprice = adultprice if age >=18 else teenprice
 total = baseprice * tickets
 subtotal = total * discount
 
