@@ -8,7 +8,8 @@ adultprice = 12
 teenprice = 10
 discount = .2
 baseprice =  adultprice if age >=18 else teenprice
-total = baseprice * discount
+total = baseprice * tickets
+totaldiscount = 
 
 
 
