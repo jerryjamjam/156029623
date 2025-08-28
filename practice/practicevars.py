@@ -7,18 +7,17 @@ tickets = int(input("how many tickets do you want? "))
 adultprice = 12
 teenprice = 10
 discount = .2
-def apply_discount(tickets, adultprice, teenprice, discount)
-    if 13 <= age <= 17:
-        
-adult_discount = (tickets * adultprice) - (discount * (adultprice * tickets))
-teen_discount = (tickets * teenprice) - (discount * (teenprice * tickets))
+baseprice =  adultprice if age >=18 else teenprice
+total = baseprice * discount
+
+
 
 if age <= 12:
     print("Sorry, you're too young for this movie")
 elif age in [13, 14, 15, 16, 17]:
     if studentid == "Y":
         print("You get a student discount!")
-        print(f"Total cost = ${teen_discount:.2f}")
+        print(f"Total cost = ${total:.2f}")
     else:
         print("Regular teen ticket price applies")
         print(f"Total cost = ${tickets * teenprice:.2f}")
