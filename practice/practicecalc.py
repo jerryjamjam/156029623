@@ -55,4 +55,3 @@ if result is None:
     print(f"You chose {num1} {operation} {num2} -> Error: {errmsg}")
 else:
     print(f"You chose {num1} {operation} {num2} -> Result: {result}")
-
