@@ -46,7 +46,7 @@ operations = {
 result = operations[operation](num1, num2)
 
 
-if num2 == 0 and operation in ["/", "//", "%"]:
+if result == None:
     print(f"You chose {num1} {operation} {num2} -> Error: {result}")
 else:
     print(f"You chose {num1} {operation} {num2} -> Result: {result}")
