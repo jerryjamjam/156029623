@@ -51,12 +51,6 @@ errmsg = {
 result = operations[operation](num1, num2)
 
 if result is None:
-    if operation == "/":
-        errmsg = "Cannot divide by zero"
-    elif operation == "//":
-        errmsg = "Cannot floordivide by zero"
-    else:
-        errmsg = "Cannot modulus by zero"
-    print(f"You chose {num1} {operation} {num2} -> Error: {errmsg}")
+    print(f"You chose {num1} {operation} {num2} -> Error: {errmsg[operation]}")
 else:
     print(f"You chose {num1} {operation} {num2} -> Result: {result}")
