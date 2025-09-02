@@ -49,8 +49,9 @@ errmsg = {
     "%" = "Cannot modulus by zero"
 }
 result = operations[operation](num1, num2)
+errmsg = errmsg[operation](num1, num2)
 
 if result is None:
-    print(f"You chose {num1} {operation} {num2} -> Error: {errmsg[operation]}")
+    print(f"You chose {num1} {operation} {num2} -> Error: {errmsg}")
 else:
     print(f"You chose {num1} {operation} {num2} -> Result: {result}")
