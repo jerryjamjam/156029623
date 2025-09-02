@@ -44,12 +44,14 @@ operations = {
 }
 
 result = operations[operation](num1, num2)
-divideerror = "cannot divide by zero"
-floordividerror = "cannot floordivide by zero"
-moduluserror = "cannot modulus by zero"
 
 if result == None:
-    print(f"You chose {num1} {operation} {num2} -> Error: {result}")
+    if operation is "/":
+        print(f"You chose {num1} {operation} {num2} -> Error: Cannot divide by zero")
+    elif operation is "//":
+        print(f"You chose {num1} {operation} {num2} -> Error: Cannot floordivide by zero")
+    else:
+        print(f"You chose {num1} {operation} {num2} -> Error: Cannot modulus by zero")
 else:
     print(f"You chose {num1} {operation} {num2} -> Result: {result}")
 
