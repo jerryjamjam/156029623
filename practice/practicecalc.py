@@ -42,7 +42,8 @@ operations = {
     "*": times,
     "**": expo
 }
-
+#operations is a dict but isnt shown
+#num1, num2, and operation are all input variables
 errmsg = {
     "/": "Cannot divide by zero",
     "//": "Cannot floordivide by zero",
