@@ -1,5 +1,3 @@
-
-
 num1 = int(input("First Number? "))
 num2 = int(input("Second Number? "))
 operation = input("Choose an Operation (+, -, /, *, //, %, **)")
