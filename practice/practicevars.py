@@ -2,6 +2,10 @@ num1 = int(input("First Number? "))
 num2 = int(input("Second Number? "))
 operation = input("Choose an Operation (+, -, /, *, //, %, **) ")
 
+operations = {
+    
+}
+
 if operation == "+":
     result = num1 + num2
 
