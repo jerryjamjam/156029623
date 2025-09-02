@@ -1,7 +1,7 @@
 
 
 num1 = int(input("First Number? "))
-num1 = int(input("Second Number? "))
+num2 = int(input("Second Number? "))
 operation = input("Choose an Operation (+, -, /, *, //, %, **)")
 
 if operation == "+":
@@ -29,4 +29,4 @@ else:
     print("can't do that")
 
 
-print(f"You chose {num1} {operation} {num2})
+print(f"You chose {num1} {operation} {num2}")
