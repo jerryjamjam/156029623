@@ -34,5 +34,8 @@ elif operation == "**":
 else:
     print("can't do that")
 
-print(f"You chose {num1} {operation} {num2}: Result is {result}")
+if num2 == 0:
+    print(f"You chose {num1} {operation} {num2} -> Error: {result}")
+else:
+    print(f"You chose {num1} {operation} {num2} -> Result: {result}")
 
