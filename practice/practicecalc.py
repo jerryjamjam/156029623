@@ -48,6 +48,7 @@ errmsg = {
     "//": "Cannot floordivide by zero",
     "%": "Cannot modulus by zero"
 }
+
 result = operations[operation](num1, num2)
 
 if result is None:
