@@ -1,6 +1,6 @@
 num1 = int(input("First Number? "))
 num2 = int(input("Second Number? "))
-operation = input("Choose an Operation (+, -, /, *, //, %, **)")
+operation = input("Choose an Operation (+, -, /, *, //, %, **) ")
 
 if operation == "+":
     result = num1 + num2
@@ -34,5 +34,5 @@ elif operation == "**":
 else:
     print("can't do that")
 
-print(f"You chose {num1} {operation} {num2} = {result}")
+print(f"You chose {num1} {operation} {num2}: Result is {result}")
 
