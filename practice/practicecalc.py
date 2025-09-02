@@ -44,9 +44,9 @@ operations = {
 }
 
 errmsg = {
-    "/" = "Cannot divide by zero"
-    "//" = "Cannot floordivide by zero"
-    "*
+    "/" = "Cannot divide by zero",
+    "//" = "Cannot floordivide by zero",
+    "%" = "Cannot modulus by zero"
 }
 result = operations[operation](num1, num2)
 
