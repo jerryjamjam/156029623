@@ -3,9 +3,9 @@ num2 = int(input("Second Number? "))
 operation = input("Choose an Operation (+, -, /, //, %, *, **) ")
 
 operations = {
-    "+" = num1 + num2
-    "-"
-    "/"
+    "+": add
+    "-": sub
+    "/": divide
     "//"
     "%"
     "*"
