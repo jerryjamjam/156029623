@@ -26,7 +26,8 @@ elif operation == "//":
 elif operation == "%":
     if num2 == 0:
         result = "Cannot modulus by zero"
-    result = num1 % num2
+    else:
+        result = num1 % num2
 
 elif operation == "**":
     result = num1 ** num2
