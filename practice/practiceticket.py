@@ -10,7 +10,7 @@ teen_discount = (tickets * teenprice) - (discount * (teenprice * tickets))
 
 if age <= 12:
     print("Sorry, you're too young for this movie")
-elif age in [13, 14, 15, 16, 17]:
+elif 13 <= age <= 17:
     if studentid == "Y":
         print("You get a student discount!")
         print(f"Total cost = ${teen_discount:.2f}")
