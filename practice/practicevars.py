@@ -14,12 +14,20 @@ elif operation == "*":
     operation = num1 * num2
 
 elif operation == "/":
-    operation = num1 / num2
+    if num2 == 0:
+        print("Cannot divide by zero")
+    else:
+        operation = num1 / num2
 
 elif operation == "//":
-    operation = num1 // num2
+    if num2 == 0:
+        print("Cannot // by zero")
+    else:
+        operation = num1 // num2
 
 elif operation == "%":
+    if num2 == 0:
+        print("Cannot modulus by zero")
     operation = num1 % num2
 
 elif operation == "**":
