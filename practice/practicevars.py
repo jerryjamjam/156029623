@@ -2,15 +2,6 @@ num1 = int(input("First Number? "))
 num2 = int(input("Second Number? "))
 operation = input("Choose an Operation (+, -, /, //, %, *, **) ")
 
-operations = {
-    "+": add
-    "-": sub
-    "/": divide
-    "//": floordivide
-    "%": modulus
-    "*": times
-    "**": expo
-}
 
 def add(num1, num2):
     num1 + num2
@@ -21,6 +12,27 @@ def sub(num1, num2):
 def divide(num1, num2):
     num1 / num2
 
+def floordivide(num1, num2):
+    num1 // num2
+
+def modulus(num1, num2):
+    num1 % num2
+
+def times(num1, num2):
+    num1 * num2
+
+def expo(num1, num2):
+    num1 ** num2
+
+operations = {
+    "+": add,
+    "-": sub,
+    "/": divide,
+    "//": floordivide,
+    "%": modulus,
+    "*": times,
+    "**": expo
+}
 
 result = operations[{operation}](num1, num2)
 
