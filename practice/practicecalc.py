@@ -51,6 +51,6 @@ errmsg = {
 result = operations[operation](num1, num2)
 
 if result is None:
-    print(f"You chose {num1} {operation} {num2} -> Error: {errmsg}")
+    print(f"You chose {num1} {operation} {num2} -> Error: {errmsg[operation]}")
 else:
     print(f"You chose {num1} {operation} {num2} -> Result: {result}")
