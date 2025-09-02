@@ -6,14 +6,13 @@ operations = {
     "+": add
     "-": sub
     "/": divide
-    "//"
-    "%"
-    "*"
-    "**"
+    "//": floordivide
+    "%": modulus
+    "*": times
+    "**": expo
 }
 
-
-result = 0
+result = operations[{operation}](num1, num2)
 
 if operation == "+":
     result = num1 + num2
