@@ -45,10 +45,10 @@ operations = {
 
 result = operations[operation](num1, num2)
 
-if result == None:
-    if operation is "/":
+if result is None:
+    if operation == "/":
         print(f"You chose {num1} {operation} {num2} -> Error: Cannot divide by zero")
-    elif operation is "//":
+    elif operation == "//":
         print(f"You chose {num1} {operation} {num2} -> Error: Cannot floordivide by zero")
     else:
         print(f"You chose {num1} {operation} {num2} -> Error: Cannot modulus by zero")
