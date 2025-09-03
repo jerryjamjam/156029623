@@ -26,16 +26,3 @@ if id == "N":
     print("GET OUT OF HERE!")
     sys.exit
 
-
-fruits = {"apple": 2, "banana": 5}
-
-# Key exists
-print(fruits.get("apple"))       # Output: 2
-
-# Key does not exist, no default
-print(fruits.get("orange"))      # Output: None
-
-# Key does not exist, with default
-print(fruits.get("orange", 0))   # Output: 0
-
-#print(fruits[apples]) results 
