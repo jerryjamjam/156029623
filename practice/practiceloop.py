@@ -8,3 +8,9 @@ for row in range(num1):
     for col in range(num1):
         print("*", end=" ")
     print()
+
+
+
+* * *
+* * *
+* * *
