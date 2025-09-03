@@ -1,6 +1,6 @@
 #hiiiiiii
 
 number = input("Enter a number ")
-for number in range(10):
-    number * number
-print(number)
+for times in range(11):
+    result = number * times
+print(result)
