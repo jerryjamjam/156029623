@@ -10,7 +10,3 @@ for row in range(num1):
     print()
 
 
-
-* * *
-* * *
-* * *
